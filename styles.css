@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(27, 27, 27);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-style: Roboto;
+}
+
+.infos {
+    font-size: 50px;
+    font: Roboto;
+    color: white;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.image-style {
+    width: 250px;
+    height: 200px;
+}
+
+.btn-blue,
+.btn-blue:focus,
+.btn-blue:active {
+    border-color: #4169E1;
+    color: #4169E1;
+
+    i {
+        color: #4169E1;
+    }
+}
+
+.btn-blue:hover {
+    border-color: white;
+    color: white;
+
+    i {
+        color: white;
+    }
+
+    background-color: #4169E1;
+}
+
+.btn-outline {
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    padding: 8px 16px;
+    border: 0.15em solid;
+    border-radius: 15px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    line-height: inherit;
+    font-size: 1.25rem;
+    position: relative;
+    outline: none;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    font-weight: 500;
+    margin-top: 30px;
+}
