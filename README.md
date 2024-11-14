@@ -1,4 +1,7 @@
-A simple project that returns some infos from the Pokemon API
+<h1>About the project</h1>
+A simple project that returns some infos from the Pokemon API.
+
+<h2>Getting started</h2>
 
 Download the ZIP, extract it.
 
